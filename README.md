@@ -38,23 +38,24 @@ SIIIC, elle, ne comportait pas les coordonnées géographiques. Une tentative de
 
 La technique d'appariement se base sur l'identicité des noms, l'inclusion possible, ou le niveau de ressemblance donné par la [distance de levenstein](https://fr.wikipedia.org/wiki/Distance_de_Levenshtein).
 
-##Précautions concernant la carte
+## Précautions concernant la carte
 La localisation des sites SIIIC n'est pas toujours correcte puisque basée sur cette méthode d'appariement automatique.
 
 La qualité de la carte dépend avant tout de l'actualité, ainsi que la qualité des données renseignées dans les bases de référence BASOL, BASIAS, BASOL.
 
 La carte ne concerne que les friches industrielles, non les friches urbaines au sens large.
 
-##Outils utilisés
-###R
+## Outils utilisés
+
+### R
 - Le paquet [rvest](https://cran.r-project.org/web/packages/rvest/index.html) a été utilisé pour scraper le site internet de BASOL.
 - Le paquet [stringdist](https://cran.r-project.org/web/packages/stringdist/index.html) a été utilisé pour tenter d'apparier les noms d'établissements entre SIIIC et SIRENE.
 - R Markdown et le paquet [leaflet](https://rstudio.github.io/leaflet/) ont servi à générer la carte interactive des friches de l'Oise.
 
-###PostgreSQL
+### PostgreSQL
 PostgreSQL a été utilisé afin de procéder à différentes extractions et requêtes sur les fichiers fonciers.
 
-###QGIS
+### QGIS
 [QGIS](https://fr.wikipedia.org/wiki/QGIS) a permis de réaliser différents contrôles visuels avant la production de la carte interactive.
 
 
