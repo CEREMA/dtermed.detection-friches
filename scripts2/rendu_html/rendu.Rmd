@@ -1,0 +1,13 @@
+---
+title: "Carte des friches de la Somme (60)"
+output: html_document
+---
+
+```{r echo=FALSE, cache=FALSE, warning=FALSE, comment=FALSE, message=FALSE}
+#```{r results='asis', echo=FALSE, include=FALSE}
+
+# suppressWarnings(suppressMessages(suppressPackageStartupMessages({
+source("rendu.R")
+# })))
+m
+```
