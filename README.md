@@ -5,7 +5,7 @@ L'équipe était composée de Silvio Rousic et Mathieu Rajerison du service GTIE
 
 Cette équipe a essayé de répondre au défi de la détection des friches urbaines.
 
-![alt tag](https://user-images.githubusercontent.com/19548578/42260027-27f805ea-7f63-11e8-91be-e29839b03a22.png)
+![alt tag](https://user-images.githubusercontent.com/19548578/42260183-bacea1da-7f63-11e8-85fa-4bf5dccbbc3b.png)
 
 
 ## Bases utilisées
