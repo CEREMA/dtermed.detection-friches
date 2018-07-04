@@ -24,7 +24,7 @@ L'équipe s'est fixée de fournir in fine une carte des friches, non pas sur tou
 Cette carte est disponible dans le dossier `scripts/rendu_html`
 <iframe src="scripts/rendu_html/rendu.html" width=100% height=600></iframe>
 
-https://github.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html
+https://rawgit.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html
 
 
 ## Description des bases et méthodes utilisées
