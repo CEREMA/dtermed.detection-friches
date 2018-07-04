@@ -4,6 +4,7 @@ La DTerMed du CEREMA a participé aux défis du Challenge [RST-Analytics-2018](h
 L'équipe était composée de Silvio Rousic et Mathieu Rajerison du service GTIE.
 
 Cette équipe a essayé de répondre au défi de la détection des friches urbaines.
+https://user-images.githubusercontent.com/19548578/42259862-8621c8e6-7f62-11e8-8b23-7c92385833f4.png
 
 
 ## Bases utilisées
