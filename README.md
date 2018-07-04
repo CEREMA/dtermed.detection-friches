@@ -26,7 +26,7 @@ Cette carte est disponible dans le dossier `scripts/rendu_html`
 
 https://github.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html
 
-<a href="#"><img src="home.png" alt="Carte" /></a>
+<a href="#"><img src="https://github.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html" alt="Carte" /></a>
 
 
 ## Description des bases et méthodes utilisées
