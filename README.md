@@ -24,8 +24,6 @@ Afin d'optimiser les temps de traitement et d'intégration de données pour le d
 Cette carte est disponible dans le dossier `scripts/rendu_html`
 <iframe src="scripts/rendu_html/rendu.html" width=100% height=600></iframe>
 
-![alt tag](https://user-images.githubusercontent.com/19548578/42266747-93c0627c-7f77-11e8-8617-a997d41be79a.png)
-
 ## Description des bases et méthodes utilisées
 La base [BASIAS](http://www.georisques.gouv.fr/dossiers/inventaire-historique-des-sites-industriels-et-activites-de-service-basias#/) comportait toutes les informations nécessaires, à savoir :
 
@@ -40,6 +38,9 @@ Par contre, BASOL ne comportait pas l'état d'activité. Ce dernier a été réc
 SIIIC, elle, ne comportait pas les coordonnées géographiques. Une tentative de récupération de ces informations a été réalisée en tentant d'apparier les noms d'établissement de SIIIC avec ceux de la [base SIRENE géocodée par Christian Quest](http://data.cquest.org/geo_sirene/).
 
 La technique d'appariement se base sur l'identicité des noms, l'inclusion possible, ou le niveau de ressemblance donné par la [distance de levenstein](https://fr.wikipedia.org/wiki/Distance_de_Levenshtein).
+
+## Aperçu de la carte
+![alt tag](https://user-images.githubusercontent.com/19548578/42266747-93c0627c-7f77-11e8-8617-a997d41be79a.png)
 
 ## Précautions concernant la carte
 La localisation des sites SIIIC n'est pas toujours correcte puisque basée sur cette méthode d'appariement automatique.
