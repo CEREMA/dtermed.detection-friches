@@ -26,8 +26,6 @@ Cette carte est disponible dans le dossier `scripts/rendu_html`
 
 https://github.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html
 
-<a href="#"><img src="https://github.com/CEREMA/dtermed.detection-friches/blob/master/scripts/rendu_html/rendu.html" alt="Carte" /></a>
-
 
 ## Description des bases et méthodes utilisées
 La base [BASIAS](http://www.georisques.gouv.fr/dossiers/inventaire-historique-des-sites-industriels-et-activites-de-service-basias#/) comportait toutes les informations nécessaires, à savoir :
