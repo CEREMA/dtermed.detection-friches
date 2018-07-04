@@ -41,7 +41,7 @@ La technique d'appariement se base sur l'identicité des noms, l'inclusion possi
 
 ## Aperçu de la carte
 ![alt tag](https://user-images.githubusercontent.com/19548578/42266747-93c0627c-7f77-11e8-8617-a997d41be79a.png)
-La technique de [webscraping] a également été utilisée pour afficher dans des infobulles le descriptif des sites fourni sur internet.  
+La technique de webscraping a également été utilisée pour afficher dans des infobulles le descriptif des sites récupéré sur internet.  
 
 ## Précautions concernant la carte
 La localisation des sites SIIIC n'est pas toujours correcte puisque basée sur cette méthode d'appariement automatique.
