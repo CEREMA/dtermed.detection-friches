@@ -14,12 +14,12 @@ Pour cela, la DREAL Hauts-de-France a fourni 4 bases de données :
 - la base [BASOL](https://basol.developpement-durable.gouv.fr/recherche.php) des sites pollués
 - la base [BASIAS](http://www.georisques.gouv.fr/dossiers/inventaire-historique-des-sites-industriels-et-activites-de-service-basias#/) des sites industriels et activités de service
 - une extraction de la base SIIIC sur les Installations Classées pour la Protection de l'Environnement
-- les fichiers fonciers MAJIC (Mise A Jour de l'Information Cadastrale)
+- les fichiers fonciers MAJIC (Mise A Jour de l'Information Cadastrale) sur le département de l'Oise
 
 Seules les bases BASOL et BASIAS sont disponibles en téléchargement libre sur Internet. La base SIIIC est une base confidentielle entretenue par les DREALs.
 
 ## Objectif fixé
-L'équipe s'est fixée de fournir in fine une carte des friches, non pas sur toute la région, mais sur un département, l'Oise, comme preuve de concept, ceci afin, aussi, de raccourcir les temps de traitement et d'intégration de données.
+Afin d'optimiser les temps de traitement et d'intégration de données pour le délai imparti par l'exercice (2 jours), l'équipe s'est fixée de produire comme preuve de concept (POC) une carte des friches centrée sur le territoire commun aux défférentes sources d'entrée, soit sur le département de l'Oise.
 
 Cette carte est disponible dans le dossier `scripts/rendu_html`
 <iframe src="scripts/rendu_html/rendu.html" width=100% height=600></iframe>
