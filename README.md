@@ -19,7 +19,7 @@ Pour cela, la DREAL Hauts-de-France a fourni 4 bases de données :
 Seules les bases BASOL et BASIAS sont disponibles en téléchargement libre sur Internet. La base SIIIC est une base confidentielle entretenue par les DREALs.
 
 ## Objectif fixé
-Afin d'optimiser les temps de traitement et d'intégration de données pour le délai imparti par l'exercice (2 jours), l'équipe s'est fixée de produire comme preuve de concept (POC) une carte des friches centrée sur le territoire commun aux différentes sources d'entrée, soit sur le département de l'Oise.
+Afin d'optimiser les temps de traitement et d'intégration de données pour le délai imparti par l'exercice (mode hackathon sur 2 jours), l'équipe s'est fixée de produire comme preuve de concept (POC) une carte des friches centrée sur le territoire commun aux différentes sources d'entrée, soit sur le département de l'Oise.
 
 Cette carte est disponible dans le dossier `scripts/rendu_html`
 <iframe src="scripts/rendu_html/rendu.html" width=100% height=600></iframe>
