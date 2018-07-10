@@ -63,4 +63,45 @@ PostgreSQL a été utilisé afin de procéder à différentes extractions et req
 ### QGIS
 [QGIS](https://fr.wikipedia.org/wiki/QGIS) a permis de réaliser différents contrôles visuels avant la production de la carte interactive.
 
+## Détail des fonctions
 
+Les fonctions créées lors du défi sont dans le fichier ```functions.R``` du dossier ```lib```
+ 
+### detectBestString
+
+La fonction ```detectBestString``` est une fonction d'appariement basée sur la distance de levenstein qui prend en entrée la chaîne de caractères à apparier et une liste des chaînes de caractère cibles candidates.
+
+Elle est basée sur la fonction ```stringdist``` du package du même nom.
+
+Elle retourne un data.frame qui comprend trois colonnes :
+1. la chaîne de caractère cible pour laquelle la distance de levenstein est la plus faible
+2. la distance de levenstein (colonne d)
+3. l'indice de la chaîne de caractère cible sélectionnée dans la liste des chaînes de caractères candidates
+
+Par exemple :
+
+	detectBestString("AUBINE ONYX", sirene$NOMEN_LONG)
+	> libelle d  w
+	1  AUBINE 5 10
+
+### fricheOrNotFriche
+
+La fonction ```fricheOrNotFriche``` permet de savoir, par un scraping du site BASOL, si un site est actuellement en friche ou pas.
+
+	fricheOrNotFriche("02.0028")
+	> FALSE
+
+### getDescriptionSite
+
+La fonction ```getDescriptionSite``` permet de récupérer la description détaillée du site telle qu'elle est sur le site BASOL. Sur la carte produite, cette description apparaît en popup.
+
+	getDescriptionSite("60.0033")
+	> <span class="marine">Le site de Liancourt a accueilli une usine fabriquant du gaz à partir de la distillation de la houille. Actuellement, il est utilisé pour les besoins d'EDF/GDF.</span>	
+	
+
+### formaterCodeBasol
+
+La fonction ```formaterCodeBasol``` permet de formater convenablement les codes BASOL car ces derniers peuvent être considérés comme des numériques à l'ouverture. Ainsi, 02.0500 peut être considéré comme 2.005 à la lecture du fichier, ce qui nécessite de le reformater.
+
+	formaterCodeBasol(2.05)
+	> "02.0500"

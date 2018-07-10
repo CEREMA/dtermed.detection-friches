@@ -66,7 +66,7 @@ getDescriptionSite = function(numero_site) {
 
 #------------------------------------------------------------------------------------------
 formaterCodeBasol = function(code) {
-  numero.s = str_split(code, "\\.")[[1]]
+  numero.s = code %>% as.character() %>% str_split("\\.")[[1]]
   numero = paste0(str_pad(numero.s[1], 2, "left", "0"), ".", str_pad(numero.s[2], 4, "right", "0"))
   return(numero)
 }
@@ -75,7 +75,7 @@ formaterCodeBasol = function(code) {
 # formaterCodeBasol(code)
 
 #------------------------------------------------------------------------------------------
-detectBestString = function(str, libelle) {
+detectBestString = function(str, libelles) {
   
   out = vector(mode="list")
   for (i in 1:length(libelles)) {
