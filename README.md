@@ -65,7 +65,7 @@ PostgreSQL a été utilisé afin de procéder à différentes extractions et req
 
 ## Détail des fonctions
 
-Les fonctions créées lors du défi sont dans le fichier ```functions.R``` du dossier ```lib```
+Les fonctions R créées lors du défi sont dans le fichier ```functions.R``` du dossier ```lib```
  
 ### detectBestString
 
@@ -76,7 +76,7 @@ Elle est basée sur la fonction ```stringdist``` du package du même nom.
 Elle retourne un data.frame qui comprend trois colonnes :
 1. la chaîne de caractère cible pour laquelle la distance de levenstein est la plus faible
 2. la distance de levenstein (colonne d)
-3. l'indice de la chaîne de caractère cible sélectionnée dans la liste des chaînes de caractères candidates
+3. l'indice de la chaîne de caractère cible sélectionnée dans la liste des chaînes de caractères candidates (colonne w)
 
 Par exemple :
 
