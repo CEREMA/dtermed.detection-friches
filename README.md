@@ -7,6 +7,8 @@ Cette équipe a essayé de répondre au défi de la détection des friches urbai
 
 ![alt tag](https://user-images.githubusercontent.com/19548578/42260183-bacea1da-7f63-11e8-85fa-4bf5dccbbc3b.png)
 
+Un [article généraliste sur le site du CEREMA](https://www.cerema.fr/fr/actualites/challenge-rst-analytics-2018-cerema-s-implique-detection) donne un compte-rendu de la restitution de ce défi. Vous trouverez ci-dessous un détail plus technique du déroulé du défi.
+
 
 ## Bases utilisées
 Pour cela, la DREAL Hauts-de-France a fourni 4 bases de données :
